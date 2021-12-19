@@ -35,8 +35,9 @@ dependencies {
     kapt DependencyConfig.EventBus.eventBusAPT
 
     implementation DependencyConfig.Ext.utils
-    implementation DependencyConfig.Ext.stateView
+    implementation DependencyConfig.Ext.statePage
     implementation DependencyConfig.Ext.statusBar
+    implementation DependencyConfig.Ext.networkState
 
 //    debugApi DependencyConfig.GitHub.LeakCanary
 }

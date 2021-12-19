@@ -54,5 +54,5 @@ fun EditText.afterTextChanged(action: (String) -> Unit) {
 
 //是否快速点击了 true 是, false 否
 fun View.isFastClick(): Boolean {
-    return UIUtils.isFastDoubleClick()
+    return UIUtils.isFastClick()
 }

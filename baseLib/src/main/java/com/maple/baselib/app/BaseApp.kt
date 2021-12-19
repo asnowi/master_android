@@ -24,13 +24,14 @@ abstract class BaseApp: Application(),  ViewModelStoreOwner{
         super.onCreate()
         instance = this
         initApp()
-        Utils.init(this)
-        SPUtils.getInstance(getAppPackageName())
-        registerLifecycle()
         initSDK(this)
     }
 
-    open fun initApp(){}
+    open fun initApp(){
+        Utils.init(this)
+        SPUtils.getInstance(getAppPackageName())
+        registerLifecycle()
+    }
 
     private fun registerLifecycle() {
         registerActivityLifecycleCallbacks(AppLifeCycleCallBack())

@@ -5,9 +5,10 @@ import com.blankj.utilcode.util.SizeUtils
 
 class LogUtils {
     companion object {
+        @JvmStatic
         fun logGGQ(s: String?) {
-            if(s != null) {
-                Log.e("GGQ", s)
+            if (true) {
+                Log.i("GGQ-->>>", "${s}")
             }
         }
     }
