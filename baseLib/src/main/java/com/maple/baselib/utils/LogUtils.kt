@@ -5,7 +5,7 @@ import com.blankj.utilcode.util.SizeUtils
 
 class LogUtils {
     companion object {
-        fun log(s: String?) {
+        fun logGGQ(s: String?) {
             if(s != null) {
                 Log.e("GGQ", s)
             }

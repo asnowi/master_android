@@ -12,7 +12,6 @@ dependencies {
     implementation DependencyConfig.AndroidX.CoreKtx
     implementation DependencyConfig.AndroidX.Appcompat
     implementation DependencyConfig.Android.Material
-    implementation DependencyConfig.AndroidX.ConstraintLayout
     implementation DependencyConfig.AndroidX.ActivityKtx
     implementation DependencyConfig.AndroidX.FragmentKtx
     implementation DependencyConfig.AndroidX.Recyclerview
@@ -28,10 +27,16 @@ dependencies {
     implementation DependencyConfig.JetPack.ViewModelSavedState
     implementation DependencyConfig.JetPack.LiveData
     implementation DependencyConfig.JetPack.Lifecycle
+    implementation DependencyConfig.JetPack.Extensions
     kapt DependencyConfig.JetPack.LifecycleCompilerAPT
+
+    /// eventBus
+    implementation DependencyConfig.EventBus.eventBus
+    kapt DependencyConfig.EventBus.eventBusAPT
 
     implementation DependencyConfig.Ext.utils
     implementation DependencyConfig.Ext.stateView
+    implementation DependencyConfig.Ext.statusBar
 
 //    debugApi DependencyConfig.GitHub.LeakCanary
 }

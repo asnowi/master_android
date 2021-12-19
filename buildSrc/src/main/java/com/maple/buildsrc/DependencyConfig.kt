@@ -31,6 +31,7 @@ object DependencyConfig {
         const val ViewModelSavedState = "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.4.0"
         const val LiveData = "androidx.lifecycle:lifecycle-livedata-ktx:2.4.0"
         const val Lifecycle = "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0"
+        const val Extensions = "android.arch.lifecycle:extensions:1.1.1"
         const val LifecycleCompilerAPT = "androidx.lifecycle:lifecycle-compiler:2.4.0"
     }
 
@@ -47,14 +48,25 @@ object DependencyConfig {
         const val gson = "com.google.code.gson:gson:2.8.6"
     }
 
+    object EventBus {
+        const val eventBus = "org.greenrobot:eventbus:3.2.0"
+        const val eventBusAPT = "org.greenrobot:eventbus-annotation-processor:3.2.0"
+    }
+
+    object ImageLoader {
+
+    }
+
     object Db {
 
     }
 
     object Ext {
-//        const val leakCanary = "com.squareup.leakcanary:leakcanary-android:2.7"
+        const val leakCanary = "com.squareup.leakcanary:leakcanary-android:2.7"
         const val utils = "com.blankj:utilcodex:1.31.0"
         const val stateView = "com.github.Zhao-Yan-Yan:MultiStatePage:2.0.2"
+        const val statusBar = "com.gitee.zackratos:UltimateBarX:0.8.0"
+
     }
 
 }

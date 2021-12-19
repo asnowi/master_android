@@ -8,4 +8,8 @@ plugins {
 
 apply from:"../base_lib_build.gradle"
 
-
+kapt {
+    arguments {
+        arg("eventBusIndex", "com.maple.baselib.eventbus.index.${project.name}EventIndex")
+    }
+}
