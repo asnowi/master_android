@@ -67,6 +67,7 @@ object DependencyConfig {
         const val statePage = "com.github.Zhao-Yan-Yan:MultiStatePage:2.0.2"
         const val statusBar = "com.gitee.zackratos:UltimateBarX:0.8.0"
         const val networkState = "com.github.kongqw:NetworkMonitor:1.1.0"
+        const val mmkv = "com.tencent:mmkv:1.2.11"
 
     }
 
