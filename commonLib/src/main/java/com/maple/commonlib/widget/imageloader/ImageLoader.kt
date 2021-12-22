@@ -19,9 +19,10 @@ class ImageLoader {
      */
     companion object {
 
-        private val gifImageLoader  by lazy {
+        private val gifImageLoader by lazy {
             CommonApp.instance.gifImageLoader
         }
+
         fun load(
             imageView: ImageView,
             any: Any?,
@@ -29,19 +30,21 @@ class ImageLoader {
             @DrawableRes placeholderRes: Int = R.mipmap.ic_default_placeholder,
             @DrawableRes errorPicRes: Int = R.mipmap.ic_default_errorpic
         ) {
-            imageView.loadAny(any,gifImageLoader) {
+            imageView.loadAny(any) {
                 crossfade(enable)
                 placeholder(placeholderRes)
                 error(errorPicRes)
             }
         }
 
-        private fun loadCircle(imageView: ImageView,
-                                any: Any?,
-                                enable: Boolean = true,
-                                @DrawableRes placeholderRes: Int = R.mipmap.ic_default_placeholder,
-                                @DrawableRes errorPicRes: Int = R.mipmap.ic_default_errorpic) {
-            imageView.loadAny(any,gifImageLoader) {
+        private fun loadCircle(
+            imageView: ImageView,
+            any: Any?,
+            enable: Boolean = true,
+            @DrawableRes placeholderRes: Int = R.mipmap.ic_default_placeholder,
+            @DrawableRes errorPicRes: Int = R.mipmap.ic_default_errorpic
+        ) {
+            imageView.loadAny(any) {
                 crossfade(enable)
                 placeholder(placeholderRes)
                 error(errorPicRes)
@@ -49,26 +52,30 @@ class ImageLoader {
             }
         }
 
-        private fun loadBlur(imageView: ImageView,
-                               any: Any?,
-                               enable: Boolean = true,
-                               @DrawableRes placeholderRes: Int = R.mipmap.ic_default_placeholder,
-                               @DrawableRes errorPicRes: Int = R.mipmap.ic_default_errorpic) {
-            imageView.loadAny(any,gifImageLoader) {
+        private fun loadBlur(
+            imageView: ImageView,
+            any: Any?,
+            enable: Boolean = true,
+            @DrawableRes placeholderRes: Int = R.mipmap.ic_default_placeholder,
+            @DrawableRes errorPicRes: Int = R.mipmap.ic_default_errorpic
+        ) {
+            imageView.loadAny(any) {
                 crossfade(enable)
                 placeholder(placeholderRes)
                 error(errorPicRes)
-                transformations(BlurTransformation(context = CommonApp.instance,))
+                transformations(BlurTransformation(context = CommonApp.instance))
             }
         }
 
-        private fun loadRounded(imageView: ImageView,
-                             any: Any?,
-                             @Px radius: Float = 12f,
-                             enable: Boolean = true,
-                             @DrawableRes placeholderRes: Int = R.mipmap.ic_default_placeholder,
-                             @DrawableRes errorPicRes: Int = R.mipmap.ic_default_errorpic) {
-            imageView.loadAny(any,gifImageLoader) {
+        private fun loadRounded(
+            imageView: ImageView,
+            any: Any?,
+            @Px radius: Float = 12f,
+            enable: Boolean = true,
+            @DrawableRes placeholderRes: Int = R.mipmap.ic_default_placeholder,
+            @DrawableRes errorPicRes: Int = R.mipmap.ic_default_errorpic
+        ) {
+            imageView.loadAny(any) {
                 crossfade(enable)
                 placeholder(placeholderRes)
                 error(errorPicRes)
@@ -76,12 +83,14 @@ class ImageLoader {
             }
         }
 
-        private fun loadGrayscale(imageView: ImageView,
-                                any: Any?,
-                                enable: Boolean = true,
-                                @DrawableRes placeholderRes: Int = R.mipmap.ic_default_placeholder,
-                                @DrawableRes errorPicRes: Int = R.mipmap.ic_default_errorpic) {
-            imageView.loadAny(any,gifImageLoader) {
+        private fun loadGrayscale(
+            imageView: ImageView,
+            any: Any?,
+            enable: Boolean = true,
+            @DrawableRes placeholderRes: Int = R.mipmap.ic_default_placeholder,
+            @DrawableRes errorPicRes: Int = R.mipmap.ic_default_errorpic
+        ) {
+            imageView.loadAny(any) {
                 crossfade(enable)
                 placeholder(placeholderRes)
                 error(errorPicRes)
