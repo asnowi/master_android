@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:duration="200"
+    android:fromXDelta="0.0f"
+    android:fromYDelta="100%"
+    android:toXDelta="0.0f"
+    android:toYDelta="0.0f"
+    tools:ignore="ResourceName">
+
+</translate>

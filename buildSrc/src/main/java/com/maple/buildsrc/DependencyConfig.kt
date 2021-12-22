@@ -35,6 +35,12 @@ object DependencyConfig {
         const val LifecycleCompilerAPT = "androidx.lifecycle:lifecycle-compiler:2.4.0"
     }
 
+    object Navigation {
+        const val NavigationFragmentKtx = "androidx.navigation:navigation-fragment-ktx:2.3.5"
+        const val NavigationUIKtx = "androidx.navigation:navigation-ui-ktx:2.3.5"
+        const val NavigationTesting = "androidx.navigation:navigation-testing:2.3.5"
+//        androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
+    }
     object Junit {
         const val Junit = "junit:junit:4.+"
         const val TestExtJunit = "androidx.test.ext:junit:1.1.2"
@@ -68,6 +74,7 @@ object DependencyConfig {
         const val statusBar = "com.gitee.zackratos:UltimateBarX:0.8.0"
         const val networkState = "com.github.kongqw:NetworkMonitor:1.1.0"
         const val mmkv = "com.tencent:mmkv:1.2.11"
+        const val lottie = "com.airbnb.android:lottie:4.2.2"
 
     }
 

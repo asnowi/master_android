@@ -4,6 +4,10 @@ android {
     compileSdk ProjectBuildConfig.compileSdkVersion
     buildToolsVersion ProjectBuildConfig.buildToolsVersion
 
+    buildFeatures {
+        dataBinding true
+    }
+
     defaultConfig {
         minSdk ProjectBuildConfig.minSdkVersion
         targetSdk ProjectBuildConfig.targetSdkVersion
@@ -65,4 +69,5 @@ apply from:"../base_dependencies.gradle"
 
 dependencies {
     implementation DependencyConfig.Ext.mmkv
+    implementation DependencyConfig.Ext.lottie
 }

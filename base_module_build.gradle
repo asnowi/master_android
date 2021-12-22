@@ -8,6 +8,10 @@ android {
     compileSdk ProjectBuildConfig.compileSdkVersion
     buildToolsVersion ProjectBuildConfig.buildToolsVersion
 
+    buildFeatures {
+        dataBinding true
+    }
+    
     signingConfigs {
         debug {
             storeFile file(keystoreProperties.RELEASE_STOREFILE)

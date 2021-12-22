@@ -4,11 +4,14 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs'
 }
 
 apply from:"../base_module_build.gradle"
 
 android {
+    resourcePrefix "test_" //给 Module 内的资源名增加前缀, 避免资源名冲突, 建议使用 Module 名作为前缀
+
     defaultConfig {
         applicationId ProjectBuildConfig.testApplicationId
         minSdk ProjectBuildConfig.minSdkVersion

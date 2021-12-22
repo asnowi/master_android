@@ -30,6 +30,11 @@ dependencies {
     implementation DependencyConfig.JetPack.Extensions
     kapt DependencyConfig.JetPack.LifecycleCompilerAPT
 
+    /// Navigation
+    implementation DependencyConfig.Navigation.NavigationFragmentKtx
+    implementation DependencyConfig.Navigation.NavigationUIKtx
+    androidTestImplementation DependencyConfig.Navigation.NavigationTesting
+    
     /// eventBus
     implementation DependencyConfig.EventBus.eventBus
     kapt DependencyConfig.EventBus.eventBusAPT
