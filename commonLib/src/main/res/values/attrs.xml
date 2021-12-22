@@ -1,2 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--文件 res/value/attr.xml-->
+    <!--虚线-->
+    <declare-styleable name="DashLineView" tools:ignore="ResourceName">
+        <attr name="line_space" format="dimension"/>
+        <attr name="blank_space" format="dimension"/>
+        <attr name="line_color" format="color"/>
+        <attr name="orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="DotView" tools:ignore="ResourceName">
+        <attr name="dotColor" format="color|reference"/>
+        <attr name="dotStyle" format="enum">
+            <enum name="FILL" value="0"/>
+            <enum name="STROKE" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="IconTextView" tools:ignore="ResourceName">
+        <attr name="text" format="string"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textAlignment" format="flags">
+            <flag name="center" value="0"/>
+            <flag name="left" value="1"/>
+            <flag name="right" value="2"/>
+        </attr>
+
+        <attr name="src" format="reference"/>
+        <attr name="iconShow" format="boolean"/>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="ViewfinderView" tools:ignore="ResourceName">
+        <attr format="color" name="maskColor"/>
+        <attr format="color" name="frameColor"/>
+        <attr format="color" name="cornerColor"/>
+        <attr format="color" name="laserColor"/>
+        <attr format="string" name="labelText"/>
+        <attr format="color" name="labelTextColor"/>
+        <attr format="dimension" name="labelTextSize"/>
+        <attr format="dimension" name="labelTextPadding"/>
+        <attr format="dimension" name="labelTextWidth"/>
+        <attr format="enum" name="labelTextLocation">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+        </attr>
+        <attr format="dimension" name="frameWidth"/>
+        <attr format="dimension" name="frameHeight"/>
+        <attr format="integer" name="gridColumn"/>
+        <attr format="dimension" name="gridHeight"/>
+        <attr format="enum" name="laserStyle">
+            <enum name="none" value="0"/>
+            <enum name="line" value="1"/>
+            <enum name="grid" value="2"/>
+        </attr>
+        <attr format="dimension" name="cornerRectWidth"/>
+        <attr format="dimension" name="cornerRectHeight"/>
+        <attr format="dimension" name="scannerLineMoveDistance"/>
+        <attr format="dimension" name="scannerLineHeight"/>
+        <attr format="dimension" name="frameLineWidth"/>
+        <attr format="integer" name="scannerAnimationDelay"/>
+        <attr format="float" name="frameRatio"/>
+        <attr format="dimension" name="framePaddingLeft"/>
+        <attr format="dimension" name="framePaddingTop"/>
+        <attr format="dimension" name="framePaddingRight"/>
+        <attr format="dimension" name="framePaddingBottom"/>
+        <attr format="enum" name="frameGravity">
+            <enum name="center" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="top" value="2"/>
+            <enum name="right" value="3"/>
+            <enum name="bottom" value="4"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleView" tools:ignore="ResourceName">
+        <attr name="cv_color" format="color" />
+        <attr name="cv_color_start" format="color" />
+        <attr name="cv_color_end" format="color" />
+        <attr name="cv_color_direction">
+            <flag name="left_to_right" value="1" />
+            <flag name="right_to_left" value="2" />
+            <flag name="top_to_bottom" value="3" />
+            <flag name="bottom_to_top" value="4" />
+        </attr>
+        <attr name="cv_border" format="boolean" />
+        <attr name="cv_border_width" format="dimension" />
+        <attr name="cv_border_color" format="color" />
+        <attr name="cv_border_color_start" format="color" />
+        <attr name="cv_border_color_end" format="color" />
+        <attr name="cv_border_color_direction">
+            <flag name="left_to_right" value="1" />
+            <flag name="right_to_left" value="2" />
+            <flag name="top_to_bottom" value="3" />
+            <flag name="bottom_to_top" value="4" />
+        </attr>
+        <attr name="cv_shadow" format="boolean" />
+        <attr name="cv_shadow_color" format="color" />
+        <attr name="cv_shadow_radius" format="float" />
+        <attr name="cv_shadow_gravity">
+            <flag name="center" value="1" />
+            <flag name="top" value="2" />
+            <flag name="bottom" value="3" />
+            <flag name="start" value="4" />
+            <flag name="end" value="5" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView" tools:ignore="ResourceName">
+        <attr name="civ_corner_radius" format="dimension" />
+        <attr name="civ_left_top_radius" format="dimension" />
+        <attr name="civ_right_top_radius" format="dimension" />
+        <attr name="civ_left_bottom_radius" format="dimension" />
+        <attr name="civ_right_bottom_radius" format="dimension" />
+
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+
+        <attr name="civ_ratio_width" format="integer" />
+        <attr name="civ_ratio_height" format="integer" />
+
+        <attr name="civ_type" format="enum">
+            <enum name="circle" value="1" />
+            <enum name="round" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

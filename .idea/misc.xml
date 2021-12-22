@@ -3,10 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../../layout/custom_preview.xml" value="0.2526041666666667" />
+        <entry key="commonLib/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.24166666666666667" />
+        <entry key="commonLib/src/main/res/drawable/ic_baseline_eye_24.xml" value="0.24166666666666667" />
+        <entry key="commonLib/src/main/res/drawable/ic_baseline_ueye_24.xml" value="0.16510416666666666" />
+        <entry key="commonLib/src/main/res/drawable/ic_launcher_background.xml" value="0.24166666666666667" />
         <entry key="commonLib/src/main/res/drawable/selector_left_lower.xml" value="0.15208333333333332" />
         <entry key="commonLib/src/main/res/drawable/selector_radius.xml" value="0.15208333333333332" />
         <entry key="commonLib/src/main/res/drawable/selector_radius_bottom.xml" value="0.15208333333333332" />
+        <entry key="commonLib/src/main/res/drawable/selector_radius_cancel.xml" value="0.24166666666666667" />
+        <entry key="commonLib/src/main/res/drawable/selector_radius_define.xml" value="0.16510416666666666" />
         <entry key="commonLib/src/main/res/drawable/selector_radius_top.xml" value="0.15208333333333332" />
+        <entry key="commonLib/src/main/res/drawable/selector_right_lower.xml" value="0.24166666666666667" />
         <entry key="commonLib/src/main/res/drawable/shape_loading_bg.xml" value="0.15208333333333332" />
         <entry key="commonLib/src/main/res/drawable/shape_radius.xml" value="0.15208333333333332" />
         <entry key="commonLib/src/main/res/drawable/shape_radius_top.xml" value="0.15208333333333332" />

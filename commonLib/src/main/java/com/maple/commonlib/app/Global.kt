@@ -8,5 +8,8 @@ class Global {
         const val URL_DOMAIN = "DOMAIN-URL"
 
         const val URL_DEV = "URL-DEV"
+
+        /// response success code
+        const val SUCCESS_CODE = "200"
     }
 }

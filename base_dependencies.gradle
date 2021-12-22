@@ -4,37 +4,37 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
     /// test
-    testImplementation DependencyConfig.Junit.Junit
-    androidTestImplementation DependencyConfig.Junit.TestExtJunit
-    androidTestImplementation DependencyConfig.Junit.TestEspresso
+    testImplementation DependencyConfig.Junit.junit
+    androidTestImplementation DependencyConfig.Junit.testExtJunit
+    androidTestImplementation DependencyConfig.Junit.testEspresso
 
     /// androidx
-    implementation DependencyConfig.AndroidX.CoreKtx
-    implementation DependencyConfig.AndroidX.Appcompat
-    implementation DependencyConfig.Android.Material
-    implementation DependencyConfig.AndroidX.ActivityKtx
-    implementation DependencyConfig.AndroidX.FragmentKtx
-    implementation DependencyConfig.AndroidX.Recyclerview
-    implementation DependencyConfig.AndroidX.MultiDex
+    implementation DependencyConfig.AndroidX.coreKtx
+    implementation DependencyConfig.AndroidX.appcompat
+    implementation DependencyConfig.Android.material
+    implementation DependencyConfig.AndroidX.activityKtx
+    implementation DependencyConfig.AndroidX.fragmentKtx
+    implementation DependencyConfig.AndroidX.recyclerview
+    implementation DependencyConfig.AndroidX.multiDex
 
     /// kotlin
-    implementation DependencyConfig.Kotlin.KotlinStdlib
-    implementation DependencyConfig.Kotlin.CoroutinesCore
-    implementation DependencyConfig.Kotlin.CoroutinesAndroid
+    implementation DependencyConfig.Kotlin.kotlinStdlib
+    implementation DependencyConfig.Kotlin.coroutinesCore
+    implementation DependencyConfig.Kotlin.coroutinesAndroid
 
     /// jetPack
-    implementation DependencyConfig.JetPack.ViewModel
-    implementation DependencyConfig.JetPack.ViewModelSavedState
-    implementation DependencyConfig.JetPack.LiveData
-    implementation DependencyConfig.JetPack.Lifecycle
-    implementation DependencyConfig.JetPack.Extensions
-    kapt DependencyConfig.JetPack.LifecycleCompilerAPT
+    implementation DependencyConfig.JetPack.viewModel
+    implementation DependencyConfig.JetPack.viewModelSavedState
+    implementation DependencyConfig.JetPack.liveData
+    implementation DependencyConfig.JetPack.lifecycle
+    implementation DependencyConfig.JetPack.extensions
+    kapt DependencyConfig.JetPack.lifecycleCompilerAPT
 
     /// Navigation
-    implementation DependencyConfig.Navigation.NavigationFragmentKtx
-    implementation DependencyConfig.Navigation.NavigationUIKtx
-    androidTestImplementation DependencyConfig.Navigation.NavigationTesting
-    
+    implementation DependencyConfig.Navigation.navigationFragmentKtx
+    implementation DependencyConfig.Navigation.navigationUIKtx
+    androidTestImplementation DependencyConfig.Navigation.navigationTesting
+
     /// eventBus
     implementation DependencyConfig.EventBus.eventBus
     kapt DependencyConfig.EventBus.eventBusAPT
@@ -44,5 +44,4 @@ dependencies {
     implementation DependencyConfig.Ext.statusBar
     implementation DependencyConfig.Ext.networkState
 
-//    debugApi DependencyConfig.GitHub.LeakCanary
 }

@@ -68,6 +68,15 @@ android {
 apply from:"../base_dependencies.gradle"
 
 dependencies {
+    implementation DependencyConfig.Http.retrofit
+    implementation DependencyConfig.Http.converter
+    implementation DependencyConfig.Http.okhttp
+    implementation DependencyConfig.Http.loggingInterceptor
+    implementation DependencyConfig.Http.gson
+    implementation DependencyConfig.ImageLoader.coil
+    implementation DependencyConfig.ImageLoader.coilGIF
+    implementation DependencyConfig.ImageLoader.coilSVG
+
     implementation DependencyConfig.Ext.mmkv
     implementation DependencyConfig.Ext.lottie
 }
