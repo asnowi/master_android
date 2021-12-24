@@ -58,6 +58,12 @@ object DependencyConfig {
         const val eventBusAPT = "org.greenrobot:eventbus-annotation-processor:3.2.0"
     }
 
+    object Permissions{
+        const val rxPermissions = "com.github.tbruyelle:rxpermissions:0.12"
+        const val rxJava = "io.reactivex.rxjava3:rxjava:3.1.3"
+        const val rxAndroid = "io.reactivex.rxjava3:rxandroid:3.0.0"
+    }
+
     object ImageLoader {
         const val coil = "io.coil-kt:coil:1.4.0"
         const val coilGIF = "io.coil-kt:coil-gif:1.4.0"

@@ -78,6 +78,10 @@ dependencies {
     implementation DependencyConfig.ImageLoader.coilSVG
     implementation DependencyConfig.ImageLoader.coilVideo
 
+    implementation DependencyConfig.Permissions.rxJava
+    implementation DependencyConfig.Permissions.rxAndroid
+    implementation DependencyConfig.Permissions.rxPermissions
+
     implementation DependencyConfig.Ext.mmkv
     implementation DependencyConfig.Ext.lottie
     implementation DependencyConfig.Ext.pictureSelector
