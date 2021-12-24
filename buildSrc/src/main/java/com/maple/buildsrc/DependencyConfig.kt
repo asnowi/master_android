@@ -62,7 +62,7 @@ object DependencyConfig {
         const val coil = "io.coil-kt:coil:1.4.0"
         const val coilGIF = "io.coil-kt:coil-gif:1.4.0"
         const val coilSVG = "io.coil-kt:coil-svg:1.4.0"
-
+        const val coilVideo = "io.coil-kt:coil-video:1.4.0"
     }
 
     object Db {
@@ -76,6 +76,7 @@ object DependencyConfig {
         const val networkState = "com.github.kongqw:NetworkMonitor:1.1.0"
         const val mmkv = "com.tencent:mmkv:1.2.11"
         const val lottie = "com.airbnb.android:lottie:4.2.2"
+        const val pictureSelector = "io.github.lucksiege:pictureselector:v2.6.1"
 
     }
 

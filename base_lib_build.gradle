@@ -76,7 +76,9 @@ dependencies {
     implementation DependencyConfig.ImageLoader.coil
     implementation DependencyConfig.ImageLoader.coilGIF
     implementation DependencyConfig.ImageLoader.coilSVG
+    implementation DependencyConfig.ImageLoader.coilVideo
 
     implementation DependencyConfig.Ext.mmkv
     implementation DependencyConfig.Ext.lottie
+    implementation DependencyConfig.Ext.pictureSelector
 }

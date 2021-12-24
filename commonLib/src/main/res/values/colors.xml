@@ -23,4 +23,7 @@
     <color name="common_light_pressed">#E0E0E0</color>
     <color name="common_light_normal">#F9F9F9</color>
 
+    <color name="common_snackbar_end">#00A2E9</color>
+    <color name="common_snackbar_start">#38B7FE</color>
+
 </resources>
