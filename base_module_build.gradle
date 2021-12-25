@@ -86,4 +86,5 @@ android {
 apply from:"../base_dependencies.gradle"
 
 dependencies {
+    implementation project(path: ':commonLib')
 }

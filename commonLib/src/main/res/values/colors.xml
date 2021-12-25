@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="common_primary">#38B7FE</color>
-    <color name="common_primaryDark">#38B7FE</color>
-    <color name="common_accent">#00A2E9</color>
+    <color name="common_primary">#2962FF</color>
+    <color name="common_primary_variant">#0039CB</color>
+    <color name="common_on_primary">#FFFFFF</color>
+    <color name="common_secondary">#2962FF</color>
+    <color name="common_secondary_variant">#0039CB</color>
+    <color name="common_on_secondary">#FFFFFF</color>
+    <color name="common_error">#F44336</color>
+    <color name="common_on_error">#FFFFFF</color>
+    <color name="common_surface">#FFFFFF</color>
+    <color name="common_on_surface">#212121</color>
+    <color name="common_on_background">#212121</color>
+    <color name="common_background">#F3F3F3</color>
+
 
     <color name="common_white">#FFFFFF</color>
     <color name="common_trans_white">#88FFFFFF</color>
@@ -11,7 +21,6 @@
     <color name="common_gray">#AAAAAA</color>
     <color name="common_red">#FF5E51</color>
 
-    <color name="common_background">#F3F3F3</color>
 
     <color name="common_pressed">#00A2E9</color>
     <color name="common_normal">#38B7FE</color>

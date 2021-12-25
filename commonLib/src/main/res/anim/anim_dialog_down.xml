@@ -2,9 +2,9 @@
 <translate xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:duration="100"
-    android:fromXDelta="0.0f"
-    android:fromYDelta="0.0f"
-    android:toXDelta="0.0f"
+    android:fromXDelta="0"
+    android:fromYDelta="0"
+    android:toXDelta="0"
     android:toYDelta="100%"
     tools:ignore="ResourceName">
 </translate>
