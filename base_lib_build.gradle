@@ -82,6 +82,12 @@ dependencies {
     implementation DependencyConfig.Permissions.rxAndroid
     implementation DependencyConfig.Permissions.rxPermissions
 
+    implementation DependencyConfig.Db.roomRuntime
+    kapt DependencyConfig.Db.roomCompiler
+    implementation DependencyConfig.Db.roomRxJava3
+    implementation DependencyConfig.Db.roomGuava
+    testImplementation DependencyConfig.Db.roomTesting
+
     implementation DependencyConfig.Ext.mmkv
     implementation DependencyConfig.Ext.lottie
     implementation DependencyConfig.Ext.pictureSelector

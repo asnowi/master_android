@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/TestAppTheme">
         <activity
+            android:name=".TestResultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TestLaunchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RoomActivity"
+            android:exported="true" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>

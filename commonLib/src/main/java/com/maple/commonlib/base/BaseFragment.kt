@@ -1,5 +1,6 @@
 package com.maple.commonlib.base
 
+import com.maple.commonlib.utils.ToastUtils
 import com.zackratos.ultimatebarx.ultimatebarx.statusBarOnly
 import com.maple.baselib.base.BaseFragment as B
 
@@ -11,7 +12,7 @@ abstract class BaseFragment: B() {
      */
     open fun showToast(s: String?) {
 //        ToastUtils.showToast(s)
-//        ToastUtils.showSnackbar(context,s)
+        ToastUtils.showSnackBar(context,s)
     }
 
     override fun setStatusBarMode(color: Int) {

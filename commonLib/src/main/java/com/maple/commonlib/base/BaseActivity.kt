@@ -2,6 +2,7 @@ package com.maple.commonlib.base
 import android.os.Bundle
 import android.view.View
 import com.maple.commonlib.R
+import com.maple.commonlib.utils.ToastUtils
 import com.maple.commonlib.widget.state.showEmpty
 import com.maple.commonlib.widget.state.showError
 import com.maple.commonlib.widget.state.showLoading
@@ -44,7 +45,7 @@ abstract class BaseActivity: B() {
      */
     open fun showToast(s: String?) {
 //        ToastUtils.showToast(s)
-//        ToastUtils.showSnackbar(this, s)
+        ToastUtils.showSnackBar(this, s)
     }
 
     override fun setStatusBarMode(color: Int) {

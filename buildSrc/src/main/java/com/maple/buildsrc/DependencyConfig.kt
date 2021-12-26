@@ -72,7 +72,11 @@ object DependencyConfig {
     }
 
     object Db {
-
+        const val roomRuntime = "androidx.room:room-runtime:2.3.0"
+        const val roomCompiler = "androidx.room:room-compiler:2.3.0"
+        const val roomRxJava3 = "androidx.room:room-rxjava3:2.3.0"
+        const val roomGuava = "androidx.room:room-guava:2.3.0"
+        const val roomTesting = "androidx.room:room-testing:2.3.0"
     }
 
     object Ext {
